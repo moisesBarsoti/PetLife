@@ -126,3 +126,98 @@ a.botaoTransparente {
     gap: 64px;
     padding: 64px 84px;
 }
+
+
+.duvida {
+    position: relative;
+}
+
+
+.duvida h3 {
+    border: solid 1px #ff725e;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+
+.duvida .paragrafo {
+    border: solid 1px #ff725e;
+    border-top: none;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    gap: 80px;
+    padding: 60px 84px;
+}
+
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+
+footer nav a {
+    display: block;
+    color: #263138;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+
+footer p{
+    margin-top: 20px;
+}
+
+
+footer p a {
+    color: #263138;
+    text-decoration: none;
+}
+
+
+/* Desenvolvedor */
+
+#copyright {
+    position: absolute;
+    background-color: #263138;
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+    width: 100%;
+}
+
+
+#copyright a {
+    color: #ff725e;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+#copyright a:hover {
+    color: #fff;
+} 
+
+
+a:hover {
+    text-decoration: underline;
+}
