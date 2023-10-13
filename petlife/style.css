@@ -152,7 +152,18 @@ a.botaoTransparente {
     border: solid 1px #ff725e;
     border-top: none;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
+
 }
 
 
